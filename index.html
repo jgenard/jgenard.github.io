@@ -1,142 +1,170 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <title></title>
-
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <!--<link href="styles.css" rel="stylesheet">-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC"
+      rel="stylesheet"
+    />
+    <title>Wild Circus</title>
   </head>
+
   <body>
-    <div class="container">
-      <header>
-        <h1 id="name">Your Name</h1>
+    <header>
+      <div class="wrapper">
+        <h1>Wild Circus</h1>
+        <nav>
+          <ul>
+            <li><a href="#performances">Performances</a></li>
+            <li><a href="#about-us-cards">About Us</a></li>
+            <li><a href="#tableau-prices">Prices</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-        <div id="designation">
-          <span class="title">your designation</span>
-          <span class="organization">The organisation name</span>
-        </div>
+    <section id="image-principale">
+      <div class="wrapper">
+        <h2>Wild Circus</h2>
+      </div>
+    </section>
 
-        <div class="contact">
-          <div class="email">john@example.com</div>
-        </div>
-      </header>
+    <section id="performances">
+      <div class="wrapper">
+        <h3>Performances</h3>
+        <ul>
+          <li>
+            <img src=https://i.imgur.com/ugqSmJK.png><br />
+            <h4>Laugh</h4>
+            <p class="performances-laugh-icones">
+              As an adult, come and discover our irresistible clowns, between
+              practical jokes and pranks let yourself be carried away by their
+              joy and fall back into childhood.
+            </p>
+          </li>
 
-      <div class="content" role="main">
-        <section id="objective">
-          <h2 class="title">Objective</h2>
-          <div class="description">
+          <li>
+            <img src=https://i.imgur.com/GgxvBmx.png><br />
+            <h4>Dream</h4>
+            <p class="performances-dream-icones">
+              Let yourself be carried away in a world where the real and the
+              imaginary are one, in the company of our talented magicians,
+              discover a wonderful world limited only by your imagination.
+            </p>
+          </li>
+
+          <li>
+            <img src=https://i.imgur.com/FnuavYf.png><br />
+            <h4>Marvel at</h4>
+            <p class="performances-marvelat-icones">
+              Tame the untameable in the company of our tamers, between roar and
+              razor-sharp claws, watch these fierce felines turn into sweet
+              kittens.
+            </p>
+          </li>
+          <div class="clear"></div>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about-us-cards">
+      <div class="wrapper">
+        <h3>About Us</h3>
+        <article>
+          <div class="overlay">
+            <h4>The Story</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              At the end of his studies, at the age of 18, the young Quebecer
+              Guy Laliberté, looking for a career in the world of show business,
+              left home and decided to travel around Europe as a travelling
+              musician. There he learns the trade of fire-eater. In 1979 he
+              decided to devote himself to the street arts and during the summer
+              of the same year he participated in the organization of a popular
+              festival in Baie-Saint-Paul with two friends Daniel Gauthier and
+              Gilles Sainte-Croix.
             </p>
           </div>
-          <!-- end description -->
-        </section>
-
-        <section id="Education">
-          <h2 class="title">Education</h2>
-          <div class="description">
-            <table>
-              <thead>
-                <td>Duration</td>
-                <td>Qualification</td>
-                <td>Institute/School</td>
-                <td>Result</td>
-              </thead>
-
-              <!-- edit this/ row-wise-->
-              <tr>
-                <td>abc</td>
-                <td>abc</td>
-                <td>abc</td>
-                <td>abc</td>
-              </tr>
-
-              <tr>
-                <!-- row2 -->
-                <td>abc</td>
-                <td>abc</td>
-                <td>abc</td>
-                <td>abc</td>
-              </tr>
-            </table>
-          </div>
-          <!-- end description -->
-        </section>
-
-        <section id="projects">
-          <h2 class="title">Projects Undertaken</h2>
-          <div class="description">
-            <!-- Project 1 -->
-            <section class="project">
-              <h3 class="title">Title of the project</h3>
-              <div class="meta">
-                <span class="field">Project Field</span>
-                <span class="date">Aug 2010 - Nov2010</span>
-              </div>
-              <p class="description">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus.
-              </p>
-            </section>
-            <!-- end project description -->
-
-            <!-- project 2 -->
-            <section class="project">
-              <h3 class="title">Title of the project</h3>
-              <div class="meta">
-                <span class="field">Project Field</span>
-                <span class="date">Aug 2010 - Nov2010</span>
-              </div>
-              <p class="description">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus.
-              </p>
-            </section>
-            <!-- end project description -->
-
-            <!-- project 3 -->
-            <section class="project">
-              <h3 class="title">Title of the project</h3>
-              <div class="meta">
-                <span class="field">Project Field</span>
-                <span class="date">Aug 2010 - Nov2010</span>
-              </div>
-              <p class="description">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus.
-              </p>
-            </section>
-            <!-- end project description -->
-          </div>
-          <!-- end description -->
-        </section>
-
-        <!-- Training/ seminars -->
-
-        <!-- Scholistics Achievements -->
-
-        <!-- Technical Skills -->
-
-        <!-- Extra-Curricular Activities -->
-
-        <!-- Personal Informations -->
-
-        <!-- References -->
-
-        <!-- Declarations -->
-
-        <!-- signatory -->
+        </article>
       </div>
-      <!-- end main content -->
-    </div>
-    <!-- end container -->
+    </section>
+
+    <section id="prices">
+      <div class="wrapper">
+        <h3>Prices</h3>
+
+        <table>
+          <caption>
+            <img src=https://i.imgur.com/SqFHOk7.png>
+          </caption>
+
+          <tr>
+            <th>Days</th>
+            <th>Adults</th>
+            <th>Children under 12</th>
+            <th>Groups (more 10 poeple)</th>
+            <th>Schools</th>
+          </tr>
+          <tr>
+            <td>Weeks (except Wednesday)</td>
+            <td>20 $</td>
+            <td>12 $</td>
+            <td>15 $/poeple</td>
+            <td>10 $</td>
+          </tr>
+          <tr>
+            <td>Weekend & Wednesday</td>
+            <td>25 $</td>
+            <td>17 $</td>
+            <td>20 $</td>
+            <td>15 $</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrapper">
+        <h3>Contact Us</h3>
+        <p>
+          Are you looking for information? You want to know more about Wild
+          Circus? You want to know the dates and places of our next shows ? No
+          worries, just fill in the contact form below. We will answer you as
+          soon as possible.
+        </p>
+
+        <form>
+          <label for="email">Email</label><br />
+          <input type="text" name="email" placeholder="Your email" />
+
+          <br />
+
+          <label for="votre message">Message</label><br />
+          <textarea name="message" placeholder="Your message"></textarea>
+
+          <br />
+
+          <input type="sumbit" value="OK" class="button3" />
+        </form>
+
+        <div class="clear"></div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        WILD CIRCUS - 20/05/2020 <br />
+
+        <a
+          href="https://fr.linkedin.com/in/priscilia-schnur-69013ab3"
+          target="_blank"
+          >Priscilia SCHNUR</a
+        >
+        -
+        <a href="https://wildcodeschool.fr/" target="_blank"
+          >Wild Code School</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
