@@ -67,17 +67,25 @@ header h1 {
 
 header nav {
   float: right;
-  margin: 50px;
 }
 
 header nav ul li {
   display: inline-block;
-  margin-right: 20px;
+  height: 100%;
 }
 
 header nav ul li a {
   text-transform: uppercase;
   color: #fff;
+  display: block;
+  margin-top: 25px;
+  line-height: 70px;
+  padding: 0 10px;
+  transition-duration: 0.5s;
+}
+
+header nav ul li a:hover {
+  background-color: #ffc663;
 }
 
 /* IMAGE PRINCIPAL */
@@ -147,7 +155,7 @@ header nav ul li a {
   height: 300px;
   border-radius: 10px;
   margin: 50px auto 20px auto;
-  background: url(https://i.imgur.com/1OxGY8q.jpg);
+  background: url(https://i.imgur.com/1OxGY8q.jpg)
 }
 
 .overlay {
